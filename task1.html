@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Landing Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+
+        .hero {
+            background-image: url('your-hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 5rem;
+            margin: 2rem 0;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero button {
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .services {
+            background-color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .service {
+            margin: 2rem;
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TALENT FORGE</h1>
+        <p>Learn.Develop.Design</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Welcome to our awesome service!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
+            mattis ac neque.</p>
+        <button onclick="location.href='#cta'" type="button">Get Started</button>
+    </section>
+
+    <section id="services" class="services">
+        <h2>OUR SERVICES</h2>
+        <div class="service">
+            <h3>Skill development</h3>
+            <p>Elevate yoiur skills to our comprehensive training programs designed for professional growth.</p>
+        </div>
+        <div class="service">
+            <h3>Various courses offered</h3>
+            <p>Explore a diverse range of courses tailered to enhance your expertise and advance your career.</p>
+        </div>
+        <div class="service">
+            <h3>Self development</h3>
+            <p>Unleash your potential through our industry-focused training that combines theory with practical application.</p>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <h2>Ready to get started?</h2>
+        <p>Contact us today to begin your journey with us.</p>
+        <button>Contact Us</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Business. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
